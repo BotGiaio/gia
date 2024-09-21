@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '2ffc57f65f37a579c9d24673f0ea1b1cedcf261e',
+        'reference' => '24b67992ab93a75d3fd2b95976c378ac28b10980',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -658,6 +658,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'laravel/horizon' => array(
+            'pretty_version' => 'v5.28.1',
+            'version' => '5.28.1.0',
+            'reference' => '9d2c4eaeb11408384401f8a7d1b0ea4c76554f3f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/horizon',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'laravel/jetstream' => array(
             'pretty_version' => 'v4.3.1',
             'version' => '4.3.1.0',
@@ -670,7 +679,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '2ffc57f65f37a579c9d24673f0ea1b1cedcf261e',
+            'reference' => '24b67992ab93a75d3fd2b95976c378ac28b10980',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1097,9 +1106,9 @@
             'dev_requirement' => true,
         ),
         'phpoffice/phpspreadsheet' => array(
-            'pretty_version' => '1.29.0',
-            'version' => '1.29.0.0',
-            'reference' => 'fde2ccf55eaef7e86021ff1acce26479160a0fa0',
+            'pretty_version' => '1.29.1',
+            'version' => '1.29.1.0',
+            'reference' => '59ee38f7480904cd6487e5cbdea4d80ff2758719',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpoffice/phpspreadsheet',
             'aliases' => array(),
@@ -1288,8 +1297,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -1956,9 +1965,9 @@
             'dev_requirement' => false,
         ),
         'tinymce/tinymce' => array(
-            'pretty_version' => '6.8.3',
-            'version' => '6.8.3.0',
-            'reference' => '01d1959b1200e0b872ea078e59ea5abfb5c54100',
+            'pretty_version' => '6.8.4',
+            'version' => '6.8.4.0',
+            'reference' => '4d6a5af329af6992bef810fc73d4bb70b8253a6a',
             'type' => 'component',
             'install_path' => __DIR__ . '/../tinymce/tinymce',
             'aliases' => array(),
